@@ -1,0 +1,61 @@
+/** BODY STYLES **/
+
+body{
+    background-color: #171717;
+    color: #EDEDED;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: auto;
+}
+
+#contact a {
+    color: #DA0037;
+}
+
+.accent-text {
+    color: #DA0037;
+}
+
+/** HEADER STYLES **/
+
+header {
+    height: 60px;
+    width: 100%;
+    margin: 0;
+    border-bottom: solid 1px #EDEDED;
+}
+header h1 {
+    padding-left: 20px;
+}
+
+/** CONTENT STYLES **/
+
+#main {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    padding: 20px;
+}
+
+#hero {
+    display: flex;
+    height: 30vh;
+    width: 50%;
+    margin: 0;
+    font-size: x-large;
+    background: radial-gradient(closest-side, #444444, #171717);
+    align-items: center;
+}
+#hero-container {
+    padding: 40px;
+}
+
+#content-body{
+    font-size: large;
+    width: 50%;
+}
+
+#contact {
+
+}
